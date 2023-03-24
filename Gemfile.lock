@@ -217,6 +217,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bcrypt (~> 3.1.7)
   bootsnap
   debug
   devise
@@ -224,6 +225,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   jsonapi-serializer
+  jwt
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.4, >= 7.0.4.3)
